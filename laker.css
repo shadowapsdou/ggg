@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(imagenes/fondo3.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header{
+    background-color: #ee0000;
+    color: #ffe8e8;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.brand img{
+	width: 75px;
+	height: 75px;
+
+}
+.brand{
+margin-left: 0;
+line-height: 1px;
+
+}
+
+nav ul{
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+}
+nav li{
+	display: aline;
+	margin-right: 5px 10px ;
+	float: left;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	font-display: block;
+	padding: 50px 75px;
+	font-family: Franklin Gothic;
+	font-size: 15px;
+}
+
+/*****************************************************/
+.dropdown{
+	position: relative;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #617b8c ;
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;	
+    color: black;
+}
+section{
+	padding: 20px;
+}
+table{
+	width: 100%;
+	height: 30px;
+	font-family: Bookman Old Style;
+	font-size: 15px;
+	border-color: #d66c0f;
+	background-color: #e4c239;
+}
+hr{
+	background-color: #8b26b3;
+  height: 10px; 
+  white-space: nowrap;
+} 
+img{
+	height: 350px;
+	width: 35s0px;
+}
+div{ 
+height:130px;
+	width: 120px;
+	background-color: #1F618D;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	display: inline-block;
+} 
+div img{ 
+width: 100px;
+height: 150px;
+ }
+h1{
+	color: #800202;
+}
+p{
+	color: #dd0859;
+}
+h2{
+	color: rgb(38, 70, 128);
+}
+li{
+	color: #fff;
+}
